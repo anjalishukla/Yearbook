@@ -24,12 +24,42 @@
                         <a href="#" class="brand-logo">YearBook</a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
                           <li><a href="#modal1" class="waves-light  modal-trigger">Login</a></li>
-                          <li><a href="#!">Register</a></li>
+                          <li><a href="#modal2" class="waves-light modal-trigger">Register</a></li>
                           <li><a href="#!">Class</a></li>
                         </ul>
                       </div>
         </div>
     </nav>
+  
+  
+    <div id="modal2" class="modal">
+            <div class="modal-content">
+              <h5 class="grey-text">Register Here</h5>
+              <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                            <div class="input-field col s8">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">Name</label>
+                            </div>
+                            <div class="input-field col s8">
+                                <input id="eid" type="text" class="validate">
+                                <label for="eid">Email-id</label>
+                            </div>
+                            <div class="input-field col s8">
+                                    <input id="passwd" type="text" class="validate">
+                                    <label for="passwd">Password</label> 
+                            </div>
+                            <div class="input-field col s8">
+                                    <input id="passwd2" type="text" class="validate">
+                                    <label for="passwd2">Re-Enter Password</label>
+                            </div>
+                        </div>
+                      <button type="submit" class="btn modal-close grey white-text waves-black waves-effect">Register</button>
+                      </form>
+            </div>
+            
+    </div>
     
 
   <!-- Modal Structure -->
@@ -42,13 +72,13 @@
                         <div class="input-field col s8">
                                 <input id="last_name" type="text" class="validate">
                                 <label for="last_name">Username</label>
-                              </div>
-                    <div class="input-field col s12">
+                            </div>
+                        <div class="input-field col s8">
                       <input id="last_name" type="text" class="validate">
                       <label for="last_name">Password</label>
                     </div>
                   </div>
-                  <button type="submit" class="btn modal-close grey white-text waves-green waves-effect">Login</button>
+                  <button type="submit" class="btn modal-close grey white-text waves-black waves-effect">Login</button>
                   </form>
     </div>
   </div>
